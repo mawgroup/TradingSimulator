@@ -42,6 +42,7 @@ class MockClient extends Thread{
 			if(port==2000){
 				//TODO why does this take an arg?
 				client.sendOrder(null);
+
 				int id=client.sendOrder(null);
 				//TODO client.sendCancel(id);
 				client.messageHandler();
