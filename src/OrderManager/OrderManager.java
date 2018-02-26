@@ -163,7 +163,7 @@ public class OrderManager {
 		int sliceId=o.newSlice(sliceSize);
 		Order slice=o.slices.get(sliceId);
 		slice.initialMarketPrice = o.initialMarketPrice;
-		writeSlicedOrder(slice);
+		writeSlicedOrder(o);
 		internalCross(id,slice);
 		int sizeRemaining=o.slices.get(sliceId).sizeRemaining();
 		if(sizeRemaining>0){
