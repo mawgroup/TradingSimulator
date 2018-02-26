@@ -1,0 +1,12 @@
+22-02-2018 15:24:03 INFO [Order Manager] Database - HIOrderManager.Order@7c3eb590
+22-02-2018 15:24:05 INFO [Order Manager] Database - HIOrderManager.Order@58c408a
+22-02-2018 15:24:08 INFO [Order Manager] Database - HIOrderManager.Order@132b3147
+22-02-2018 15:27:27 INFO [Order Manager] Database - InstrumentBT.L
+22-02-2018 15:27:29 INFO [Order Manager] Database - InstrumentVOD.L
+22-02-2018 15:27:31 INFO [Order Manager] Database - InstrumentVOD.L
+22-02-2018 15:29:42 INFO [Order Manager] Database - Instrument VOD.LOrder ID: 0ClientOrderID: 0
+22-02-2018 15:29:44 INFO [Order Manager] Database - Instrument BT.LOrder ID: 0ClientOrderID: 0
+22-02-2018 15:29:46 INFO [Order Manager] Database - Instrument VOD.LOrder ID: 0ClientOrderID: 1
+22-02-2018 15:32:05 INFO [Order Manager] Database - Instrument BP.L Order ID: 0 Order size filled 0
+22-02-2018 15:32:07 INFO [Order Manager] Database - Instrument VOD.L Order ID: 0 Order size filled 0
+22-02-2018 15:32:10 INFO [Order Manager] Database - Instrument VOD.L Order ID: 0 Order size filled 0
