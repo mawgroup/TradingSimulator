@@ -27,13 +27,13 @@ public class Database {
 
     public static void writeSlicedOrder(Order o) {
         initialiseLogging();
-        logger.info("Sliced Order = " + o.OrdStatus + ", Order ID: " + o.id + ", Client ID: " + o.clientid + ", Client order Id: " + o.clientOrderID + ", Instrument: " + o.instrument + ", Slice size: " + o.size + ", Position: " + o.pos);
+        logger.info("Sliced Order = " + o.OrdStatus + ", Order ID: " + o.id + ", Client ID: " + o.clientid + ", Client order Id: " + o.clientOrderID + ", Instrument: " + o.instrument + ", Slice size: " + o.sliceSizes() + ", Position: " + o.pos);
 
     }
 
     public static void writePricedOrder(Order o) {
         initialiseLogging();
-        logger.info("Priced Order = " + o.OrdStatus + ", Order ID: " + o.id + ", Client ID: " + o.clientid + ", Client order Id: " + o.clientOrderID + ", Instrument: " + o.instrument + " Order price: " + Arrays.toString(o.bestPrices));
+        logger.info("Priced Order = " + o.OrdStatus + ", Order ID: " + o.id + ", Client ID: " + o.clientid + ", Client order Id: " + o.clientOrderID + ", Instrument: " + o.instrument + " Order price: " + o.initialMarketPrice);
     }
 
     public static void writeFilledOrder(Order o) {
@@ -43,7 +43,6 @@ public class Database {
 
     public static void writeFullyFilledOrder(Order o) {
         initialiseLogging();
-        //   System.out.println(o.toString());
         logger.info("Fully Filled Order " + o.OrdStatus + ", Order ID: " + o.id + ", Client ID: " + o.clientid + ", Client order Id: " + o.clientOrderID + ", Instrument: " + o.instrument + ", Position: " + o.pos + ", Order size filled: " + o.sizeFilled());
 
     }
@@ -51,9 +50,6 @@ public class Database {
     public static void writeCancelledOrder(Order o) {
         initialiseLogging();
         logger.info("Cancelled Order = " + o.OrdStatus + ", Order ID: " + o.id + ", Client ID: " + o.clientid + ", Client order Id: " + o.clientOrderID + ", Instrument: " + o.instrument);
-
-        //	logger.info("Client ID: " + o.clientid + ", Order Cancelled = " + o.OrdStatus + ", Instrument: " + o.instrument + ", Order ID: " + o.orderId);
-
     }
 
     public static void writeRoutedOrder(Order o) {
