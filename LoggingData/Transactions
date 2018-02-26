@@ -1,0 +1,54 @@
+26-02-2018 09:40:20 INFO [Client 3] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 3772, Position: buy
+26-02-2018 09:40:20 INFO [Client 1] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 374, Position: buy
+26-02-2018 09:40:20 INFO [Client 5] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 2348, Position: sell
+26-02-2018 09:40:20 INFO [main] Database - Memory usage = 11 megabytes
+26-02-2018 09:40:20 INFO [Client 4] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 4528, Position: buy
+26-02-2018 09:40:20 INFO [Client 2] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 3671, Position: buy
+26-02-2018 09:40:23 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L, Position: buy
+26-02-2018 09:40:23 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 09:40:25 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 4, Client order Id: 0, Instrument: VOD.L, Position: sell
+26-02-2018 09:40:25 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 4, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 09:40:27 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Position: buy
+26-02-2018 09:40:27 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 09:40:29 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 1, Client order Id: 0, Instrument: VOD.L, Position: buy
+26-02-2018 09:40:29 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 1, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 09:40:32 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 2, Client order Id: 0, Instrument: VOD.L, Position: buy
+26-02-2018 09:40:32 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 2, Client order Id: 0, Instrument: VOD.L Order price: null
+
+26-02-2018 09:40:34 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 2264, Position: buy
+26-02-2018 09:40:34 INFO [Order Manager] Database - Filled Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L, Order size filled: 1610
+
+26-02-2018 09:40:36 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 1174, Position: sell
+26-02-2018 09:40:38 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 187, Position: buy
+
+26-02-2018 09:40:38 INFO [Order Manager] Database - Filled Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L, Order size filled: 1702
+
+26-02-2018 09:40:40 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 1835, Position: buy
+
+26-02-2018 09:40:40 INFO [Order Manager] Database - Filled Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L, Order size filled: 1798
+
+26-02-2018 09:40:42 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 1886, Position: buy
+
+26-02-2018 09:40:42 INFO [Order Manager] Database - Filled Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L, Order size filled: 2031
+26-02-2018 10:07:14 INFO [Client 3] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 188, Position: sell
+26-02-2018 10:07:14 INFO [Client 1] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 3143, Position: buy
+26-02-2018 10:07:14 INFO [Client 5] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 3819, Position: sell
+26-02-2018 10:07:14 INFO [main] Database - Memory usage = 13 megabytes
+26-02-2018 10:07:14 INFO [Client 4] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 3365, Position: sell
+26-02-2018 10:07:14 INFO [Client 2] Database - Order sent =  Instrument: VOD.L, Price: 0.0, Size 3535, Position: sell
+26-02-2018 10:07:20 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 4, Client order Id: 0, Instrument: VOD.L, Position: sell
+26-02-2018 10:07:20 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 4, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 10:07:22 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Position: buy
+26-02-2018 10:07:22 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 10:07:24 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 1, Client order Id: 0, Instrument: VOD.L, Position: sell
+26-02-2018 10:07:24 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 1, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 10:07:26 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 2, Client order Id: 0, Instrument: VOD.L, Position: sell
+26-02-2018 10:07:26 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 2, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 10:07:28 INFO [Order Manager] Database - Accepted Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L, Position: sell
+26-02-2018 10:07:28 INFO [Order Manager] Database - Priced Order = 0, Order ID: 0, Client ID: 3, Client order Id: 0, Instrument: VOD.L Order price: null
+26-02-2018 10:07:30 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 1909, Position: sell
+26-02-2018 10:07:35 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 1767, Position: sell
+26-02-2018 10:07:35 INFO [Order Manager] Database - Filled Order = 0, Order ID: 0, Client ID: 4, Client order Id: 0, Instrument: VOD.L, Order size filled: 1978
+26-02-2018 10:07:37 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 94, Position: sell
+26-02-2018 10:07:39 INFO [Order Manager] Database - Sliced Order = A, Order ID: 0, Client ID: 0, Client order Id: 0, Instrument: VOD.L, Slice size: 1682, Position: sell
+26-02-2018 10:07:39 INFO [Order Manager] Database - Filled Order = 0, Order ID: 0, Client ID: 4, Client order Id: 0, Instrument: VOD.L, Order size filled: 2003
